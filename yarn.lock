@@ -1391,6 +1391,19 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@doublemoondev/doublemoon-uikit@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.0/4ee288642d3eb3d4e175c38432aaf898ece8795cd0c1f6bc85bde4efb1280b0c#09548242ef92a24998a93269bf701ce79cde91da"
+  integrity sha512-tpQ5eyrZ2dbfJrgHpOb8zgxJ1RCOc8s4HDkQrMGOSUQk1vH6k2b2dOoknZg4O8hiI2XN7iPnPLlFQS83b/w2Bg==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
@@ -2171,17 +2184,6 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@file:../doublemoon-toolkit/packages/pancake-uikit":
-  version "0.28.1"
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@pedrouid/iso-crypto/-/iso-crypto-1.1.0.tgz#3fb4050ea99f2f8ee41ba8661193c0989c815c95"
@@ -2852,9 +2854,9 @@
   integrity sha512-dIPoZ3g5gcx9zZEszaxLSVTvMReD3xxyyDnQUjA6IYDG9Ba2AV0otMPs+77sG9ojB4Qr2N2Vk5RnKeuA0X/0bg==
 
 "@types/sizzle@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
-  integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
+  integrity sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -4686,9 +4688,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001214:
-  version "1.0.30001216"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001216.tgz#47418a082a4f952d14d8964ae739e25efb2060a9"
-  integrity sha512-1uU+ww/n5WCJRwUcc9UH/W6925Se5aNnem/G5QaSDga2HzvjYMs8vRbekGUN/PnTZ7ezTHcxxTEb9fgiMYwH6Q==
+  version "1.0.30001218"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001218.tgz#9b44f6ed16f875db6373e2debd4d14a07359002f"
+  integrity sha512-0ASydOWSy3bB88FbDpJSTt+PfDwnMqrym3yRZfqG8EXSQ06OZhF+q5wgYP/EN+jJMERItNcDQUqMyNjzZ+r5+Q==
 
 capture-exit@^2.0.0:
   version "2.0.0"

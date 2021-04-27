@@ -1,5 +1,5 @@
 import React, { createContext } from 'react'
-import { LangType } from '@pancakeswap-libs/uikit'
+import { LangType } from '@doublemoondev/doublemoon-uikit'
 
 export interface LanguageObject {
   code: string
