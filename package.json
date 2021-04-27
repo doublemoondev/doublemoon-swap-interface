@@ -1,6 +1,6 @@
 {
-  "name": "@pancakeswap/interface",
-  "description": "Pancakeswap Interface",
+  "name": "@doublemoonswap/interface",
+  "description": "DoubleMoon Swap Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {
