@@ -1,14 +1,12 @@
 import { Currency, ETHER, Token } from '@pancakeswap-libs/sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { Text, CloseIcon } from '@pancakeswap-libs/uikit'
-import { useSelector } from 'react-redux'
 import { useTranslation } from 'react-i18next'
 import { FixedSizeList } from 'react-window'
 import { ThemeContext } from 'styled-components'
 import AutoSizer from 'react-virtualized-auto-sizer'
 import useI18n from 'hooks/useI18n'
 import { useActiveWeb3React } from '../../hooks'
-import { AppState } from '../../state'
 import { useAllTokens, useToken } from '../../hooks/Tokens'
 import { useSelectedListInfo } from '../../state/lists/hooks'
 import { LinkStyledButton } from '../Shared'
@@ -64,8 +62,6 @@ export function CurrencySearch({
 
   const tokenComparator = useTokenComparator(invertSearchOrder)
 
-  const audioPlay = useSelector<AppState, AppState['user']['audioPlay']>((state) => state.user.audioPlay)
-
   const filteredTokens: Token[] = useMemo(() => {
     if (isAddressSearch) return searchToken ? [searchToken] : []
     return filterTokens(Object.values(allTokens), searchQuery)
@@ -92,12 +88,6 @@ export function CurrencySearch({
     (currency: Currency) => {
       onCurrencySelect(currency)
       onDismiss()
-      // if (audioPlay) {
-      //   const audio = document.getElementById('bgMusic') as HTMLAudioElement
-      //   if (audio) {
-      //     audio.play()
-      //   }
-      // }
     },
     [onDismiss, onCurrencySelect]
   )
