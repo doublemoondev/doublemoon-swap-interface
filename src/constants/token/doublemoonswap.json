@@ -1,14 +1,14 @@
 {
-  "name": "PancakeSwap Default List",
-  "timestamp": "2021-03-17T09:56:23Z",
+  "name": "DoubleMoonSwap Default List",
+  "timestamp": "2021-03-27T09:56:23Z",
   "version": {
     "major": 2,
     "minor": 9,
-    "patch": 0
+    "patch": 1
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
-  "keywords": ["pancake", "default"],
+  "keywords": ["doublemoon", "default"],
   "tokens": [
     {
       "name": "WBNB Token",

@@ -92,14 +92,14 @@ export function CurrencySearch({
     (currency: Currency) => {
       onCurrencySelect(currency)
       onDismiss()
-      if (audioPlay) {
-        const audio = document.getElementById('bgMusic') as HTMLAudioElement
-        if (audio) {
-          audio.play()
-        }
-      }
+      // if (audioPlay) {
+      //   const audio = document.getElementById('bgMusic') as HTMLAudioElement
+      //   if (audio) {
+      //     audio.play()
+      //   }
+      // }
     },
-    [onDismiss, onCurrencySelect, audioPlay]
+    [onDismiss, onCurrencySelect]
   )
 
   // clear the input on open
