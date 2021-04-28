@@ -1,10 +1,10 @@
 {
   "name": "DoubleMoonSwap Default List",
-  "timestamp": "2021-03-27T09:58:23Z",
+  "timestamp": "2021-03-28T11:20:23Z",
   "version": {
     "major": 2,
     "minor": 9,
-    "patch": 0
+    "patch": 1
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
@@ -20,8 +20,8 @@
     },
     {
       "name": "Double Moon",
-      "symbol": "DOUBLEMOON",
-      "address": "0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88",
+      "symbol": "DBM",
+      "address": "0x0314e5a39806C30D67B869EE1bCDABee7e08dE74",
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://doublemoon-swap.vercel.app/images/coins/doublemoon.png"
