@@ -62,6 +62,7 @@ class MiniRpcProvider implements AsyncSendable {
     const { batch } = this
     this.batch = []
     this.batchTimeoutId = null
+
     let response: Response
     try {
       response = await fetch(this.url, {
@@ -90,6 +91,7 @@ class MiniRpcProvider implements AsyncSendable {
       memo[current.request.id] = current
       return memo
     }, {})
+
     // eslint-disable-next-line no-restricted-syntax
     for (const result of json) {
       const {
@@ -97,16 +99,15 @@ class MiniRpcProvider implements AsyncSendable {
         reject,
         request: { method },
       } = byKey[result.id]
-      // if (resolve && reject) {
-      //   if ('error' in result) {
-      //     reject(new RequestError(result?.error?.message, result?.error?.code, result?.error?.data))
-      //   } else if ('result' in result) {
-      //     resolve(result.result)
-      //   } else {
-      //     reject(new RequestError(`Received unexpected JSON-RPC response to ${method} request.`, -32000, result))
-      //   }
-      // }
-      resolve(result.result)
+      if (resolve) {
+        if ('error' in result) {
+          reject(new RequestError(result?.error?.message, result?.error?.code, result?.error?.data))
+        } else if ('result' in result) {
+          resolve(result.result)
+        } else {
+          reject(new RequestError(`Received unexpected JSON-RPC response to ${method} request.`, -32000, result))
+        }
+      }
     }
   }
 
