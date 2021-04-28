@@ -39,3 +39,5 @@ cypress/fixtures/example.json
 .eslintcache
 
 .vercel
+
+.npmrc
