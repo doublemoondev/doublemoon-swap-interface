@@ -1,10 +1,10 @@
 {
   "name": "DoubleMoonSwap Default List",
-  "timestamp": "2021-03-28T11:20:23Z",
+  "timestamp": "2021-03-28T12:20:23Z",
   "version": {
     "major": 2,
     "minor": 9,
-    "patch": 1
+    "patch": 2
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
@@ -24,7 +24,7 @@
       "address": "0x0314e5a39806C30D67B869EE1bCDABee7e08dE74",
       "chainId": 56,
       "decimals": 9,
-      "logoURI": "https://doublemoon-swap.vercel.app/images/coins/doublemoon.png"
+      "logoURI": "https://app.doublemoon.finance/images/coins/doublemoon.png"
     },
     {
       "name": "Bakery Token",
