@@ -48,7 +48,7 @@ const Marginer = styled.div`
   margin-top: 5rem;
 `
 
-const CACHE_KEY = 'doubleMoonSwapLanguage'
+const CACHE_KEY = 'DoubleMoonSwapLanguage'
 
 export default function App() {
   const [selectedLanguage, setSelectedLanguage] = useState<any>(undefined)
