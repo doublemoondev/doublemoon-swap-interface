@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@pancakeswap-libs/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@doublemoondev/sdk'
 import React from 'react'
 import { Button, Text } from '@doublemoondev/doublemoon-uikit'
 import { TranslateString } from 'utils/translateTextHelpers'

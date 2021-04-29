@@ -13,6 +13,22 @@
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    {
+      "name": "Double Moon",
+      "symbol": "DBM",
+      "address": "0xa199Fe40dD4e2427B3eE18921d8Af15185e94D68",
+      "chainId": 97,
+      "decimals": 9,
+      "logoURI": "https://app.doublemoon.finance/images/coins/doublemoon.png"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
