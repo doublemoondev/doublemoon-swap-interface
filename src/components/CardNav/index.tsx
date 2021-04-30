@@ -22,7 +22,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
         <ButtonMenuItem
           id="pool-nav-link"
           as="a"
-          href="https://www.binance.org/en/bridge?utm_source=PancakeSwap"
+          href="https://www.binance.org/en/bridge"
           target="_blank"
           rel="noreferrer noopener"
         >
