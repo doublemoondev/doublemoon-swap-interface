@@ -1,10 +1,10 @@
 {
   "name": "DoubleMoonSwap Default List",
-  "timestamp": "2021-03-28T12:20:23Z",
+  "timestamp": "2021-05-07T15:43:23Z",
   "version": {
     "major": 2,
     "minor": 9,
-    "patch": 2
+    "patch": 3
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
@@ -24,7 +24,7 @@
       "address": "0xa199Fe40dD4e2427B3eE18921d8Af15185e94D68",
       "chainId": 97,
       "decimals": 9,
-      "logoURI": "https://app.doublemoon.finance/images/coins/doublemoon.png"
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
     },
     {
       "name": "WBNB Token",
@@ -40,7 +40,7 @@
       "address": "0x0314e5a39806C30D67B869EE1bCDABee7e08dE74",
       "chainId": 56,
       "decimals": 9,
-      "logoURI": "https://app.doublemoon.finance/images/coins/doublemoon.png"
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
     },
     {
       "name": "Bakery Token",
