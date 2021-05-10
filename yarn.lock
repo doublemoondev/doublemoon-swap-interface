@@ -1555,9 +1555,9 @@
     lodash.once "^4.1.1"
 
 "@doublemoondev/doublemoon-uikit@^0.1.0":
-  version "0.1.2"
-  resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.2/3d748f40b95c1d59cf8511992db632d7a555d3606a1fc13ed83cb76064522d05#856ba7ad0ab80c6d0174a966743a63aabe6be1ef"
-  integrity sha512-wA7qi1/k7MXkhyOxJh98/AbvjKcadyvbL62HZXczTJlcOFAEHmCain7yDk+hJQXaN5EfeUqoj7yfBLFcwmUQ3Q==
+  version "0.1.3"
+  resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.3/9deaf56436d3bb2e216ce3d0052c702eda42b39a0cd4b24062c1adcf40fb356b#096b1996b30653c54bd52a600a30d94165eb81f0"
+  integrity sha512-+ty+zUplnYyszftjNlxo1Kw+Jfdo3q3pQW8+n0++H+c+sfocjXJbH+JT1FY0n7cC75VBZ0J4BitysXq9hUzJqQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
@@ -3259,9 +3259,9 @@
     defer-to-connect "^1.0.1"
 
 "@testing-library/dom@^7.11.0":
-  version "7.30.4"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.30.4.tgz#c6a4a91557e92035fd565246bbbfb8107aa4634d"
-  integrity sha512-GObDVMaI4ARrZEXaRy4moolNAxWPKvEYNV/fa6Uc2eAzR/t4otS6A7EhrntPBIQLeehL9DbVhscvvv7gd6hWqA==
+  version "7.31.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.0.tgz#938451abd3ca27e1b69bb395d4a40759fd7f5b3b"
+  integrity sha512-0X7ACg4YvTRDFMIuTOEj6B4NpN7i3F/4j5igOcTI5NC5J+N4TribNdErCHOZF1LBWhhcyfwxelVwvoYNMUXTOA==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
