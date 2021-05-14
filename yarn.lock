@@ -1553,7 +1553,7 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@doublemoondev/doublemoon-uikit@^0.1.0":
+"@doublemoondev/doublemoon-uikit@0.1.6":
   version "0.1.6"
   resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.6/d456ce5be915d10d425ba35bdcf1cf2799de57d93710098cc8603dd492f5c4c4#746e3b323f2c0dfe11e2235924c56aa55a47b0c9"
   integrity sha512-brhK1B1Z7aqT2t0XKcsRHBMBZLKxd9+NOrk0e03Fwp2mk4Px1F88tVWi6x3zN9xy+ED4ADIS0Js9H3ruM/RAVA==
@@ -15116,9 +15116,9 @@ node-pre-gyp@^0.11.0:
     tar "^4"
 
 node-releases@^1.1.61, node-releases@^1.1.71:
-  version "1.1.71"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.71.tgz#cb1334b179896b1c89ecfdd4b725fb7bbdfc7dbb"
-  integrity sha512-zR6HoT6LrLCRBwukmrVbHv0EpEQjksO6GmFcZQQuCAy139BEsoVKPYnf3jongYW83fAa1torLGYwxxky/p28sg==
+  version "1.1.72"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
+  integrity sha512-LLUo+PpH3dU6XizX3iVoubUNheF/owjXCZZ5yACDxNnPtgFuludV1ZL3ayK1kVep42Rmm0+R9/Y60NQbZ2bifw==
 
 nofilter@^1.0.4:
   version "1.0.4"
