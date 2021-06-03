@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@doublemoondev/sdk'
 
-export const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
+export const ROUTER_ADDRESS = '0xDd37A72531804570CE577A6b74974Ef927a16369'
 
 // a list of tokens by chain
 type ChainTokenList = {
