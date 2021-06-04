@@ -1,6 +1,6 @@
 {
   "name": "DoubleMoonSwap Default List",
-  "timestamp": "2021-05-07T15:43:23Z",
+  "timestamp": "2021-06-04T10:43:23Z",
   "version": {
     "major": 2,
     "minor": 9,
@@ -21,9 +21,17 @@
     {
       "name": "Double Moon",
       "symbol": "DBM",
-      "address": "0xa199Fe40dD4e2427B3eE18921d8Af15185e94D68",
+      "address": "0xAfF3543F3811c7B667Bcb6bf321f05c3F6Bef96A",
       "chainId": 97,
       "decimals": 9,
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
+    },
+    {
+      "name": "Double Moon Cat",
+      "symbol": "DMC",
+      "address": "0x9b5cAb9ca8b8451b94a2545A00c3e9559B228058",
+      "chainId": 97,
+      "decimals": 18,
       "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
     },
     {
