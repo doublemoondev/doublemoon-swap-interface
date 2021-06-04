@@ -2,7 +2,7 @@ import { MenuEntry } from '@doublemoondev/doublemoon-uikit'
 
 const config: MenuEntry[] = [
   {
-    label: "Buy/Sell",
+    label: "Buy DBM",
     icon: "TradeIcon",
     href: "/swap",
   },
