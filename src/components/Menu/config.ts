@@ -4,22 +4,22 @@ const config: MenuEntry[] = [
   {
     label: "Buy/Sell",
     icon: "TradeIcon",
-    href: "https://exchange.doublemoon.finance/#/swap",
+    href: "/swap",
   },
   {
     label: "Moon Lucky",
     icon: "TicketIcon",
-    href: "/moon-lucky",
+    href: "https://app.doublemoon.finance/moon-lucky",
   },
   {
     label: "Moon Farms",
     icon: "FarmIcon",
-    href: "/farms"
+    href: "https://app.doublemoon.finance/farms",
   },
   {
     label: "Moon Referral",
     icon: "ReferralIcon",
-    href: "/referral",
+    href: "https://app.doublemoon.finance/referral",
   },
   {
     label: "Document",
