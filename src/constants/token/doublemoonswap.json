@@ -32,7 +32,7 @@
       "address": "0x9b5cAb9ca8b8451b94a2545A00c3e9559B228058",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/dmc.png"
     },
     {
       "name": "WBNB Token",
@@ -49,6 +49,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://exchange.doublemoon.finance/images/coins/doublemoon.png"
+    },
+    {
+      "name": "Double Moon Cat",
+      "symbol": "DMC",
+      "address": "0xA7bD090bC58e663388Be63d5E8a7b683f5A3d4FC",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/dmc.png"
     },
     {
       "name": "Bakery Token",
