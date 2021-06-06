@@ -17,6 +17,11 @@ const config: MenuEntry[] = [
     href: "https://app.doublemoon.finance/farms",
   },
   {
+    label: "Moon Pools",
+    icon: 'PoolIcon',
+    href: 'https://app.doublemoon.finance/pools',
+  },
+  {
     label: "Moon Referral",
     icon: "ReferralIcon",
     href: "https://app.doublemoon.finance/referral",
