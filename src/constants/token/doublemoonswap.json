@@ -1,10 +1,10 @@
 {
   "name": "DoubleMoonSwap Default List",
-  "timestamp": "2021-06-04T10:43:23Z",
+  "timestamp": "2021-06-07T10:43:23Z",
   "version": {
     "major": 2,
     "minor": 9,
-    "patch": 3
+    "patch": 4
   },
   "tags": {},
   "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
@@ -57,6 +57,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://exchange.doublemoon.finance/images/coins/dmc.png"
+    },
+    {
+      "name": "SafeBSC",
+      "symbol": "SCZ",
+      "address": "0x39f1014a88c8ec087cedf1bfc7064d24f507b894",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.doublemoon.finance/images/coins/scz.png"
     },
     {
       "name": "Bakery Token",
