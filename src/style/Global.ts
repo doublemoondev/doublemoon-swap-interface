@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: '#fff';
+    background-color: #081832;
 
     img {
       height: auto;
