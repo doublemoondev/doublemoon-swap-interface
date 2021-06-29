@@ -1721,9 +1721,9 @@
     lodash.once "^4.1.1"
 
 "@doublemoondev/doublemoon-uikit@^0.1.0":
-  version "0.1.12"
-  resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.12/0d3a93a7b30706e520de98d8e015d01049888cf304f75364c8c475a5c3077881#214543dfbe3fad01adf5567da19703e78af3ca7e"
-  integrity sha512-9drDHlw76qVRYyy5PdougFbbf5jRp4MBKCieWwQikxpxUbIAyqXp/ScxRjWRBJqeSB6qDIi/uxHQB2AtyYQxPg==
+  version "0.1.15"
+  resolved "https://npm.pkg.github.com/download/@doublemoondev/doublemoon-uikit/0.1.15/6a47aadddb9a71651198b22e0dd16c96839ac36a123ae5d6af314bed233c715f#1987f82611205780d0cd2b0f324d327db9f7a721"
+  integrity sha512-af9zSFiGHfPVifXyx9N1F1bV64w5PxuSe+8Y2BUMYNJIZAmNgzHmOHoK6Do+5Cnxb9+WOo8UAMoY/9kgAnahpg==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
