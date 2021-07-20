@@ -24,7 +24,7 @@ const config: MenuEntry[] = [
   {
     label: "Moon Vaults",
     icon: 'VaultIcon',
-    href: '/vaults',
+    href: 'https://app.doublemoon.finance/vaults',
     status: menuStatus.NEW,
   },
   {
